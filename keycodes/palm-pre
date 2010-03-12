@@ -1,0 +1,178 @@
+//
+//Copyright (c) 1996  X Consortium
+//
+//Permission is hereby granted, free of charge, to any person obtaining
+//a copy of this software and associated documentation files (the
+//"Software"), to deal in the Software without restriction, including
+//without limitation the rights to use, copy, modify, merge, publish,
+//distribute, sublicense, and/or sell copies of the Software, and to
+//permit persons to whom the Software is furnished to do so, subject to
+//the following conditions:
+//
+//The above copyright notice and this permission notice shall be
+//included in all copies or substantial portions of the Software.
+//
+//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+//EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+//MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+//IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR
+//OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+//ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+//OTHER DEALINGS IN THE SOFTWARE.
+//
+//Except as contained in this notice, the name of the X Consortium shall
+//not be used in advertising or otherwise to promote the sale, use or
+//other dealings in this Software without prior written authorization
+//from the X Consortium.
+//
+//
+// These are SDLK keycodes which are not used right now.
+//SDLK_TAB		= 9;
+//SDLK_CLEAR		= 12;
+//SDLK_ESCAPE		= 27;
+//SDLK_EXCLAIM		= 33;
+//SDLK_QUOTEDBL		= 34;
+//SDLK_HASH		= 35;
+//SDLK_DOLLAR		= 36;
+//SDLK_AMPERSAND	= 38;
+//SDLK_QUOTE		= 39;
+//SDLK_LEFTPAREN		= 40;
+//SDLK_RIGHTPAREN		= 41;
+//SDLK_ASTERISK		= 42;
+//SDLK_PLUS		= 43;
+//SDLK_MINUS		= 45;
+//SDLK_SLASH		= 47;
+//SDLK_0			= 48;
+//SDLK_1			= 49;
+//SDLK_2			= 50;
+//SDLK_3			= 51;
+//SDLK_4			= 52;
+//SDLK_5			= 53;
+//SDLK_6			= 54;
+//SDLK_7			= 55;
+//SDLK_8			= 56;
+//SDLK_9			= 57;
+//SDLK_COLON		= 58;
+//SDLK_SEMICOLON		= 59;
+//SDLK_LESS		= 60;
+//SDLK_EQUALS		= 61;
+//SDLK_GREATER		= 62;
+//SDLK_QUESTION		= 63;
+//SDLK_LEFTBRACKET	= 91;
+//SDLK_BACKSLASH		= 92;
+//SDLK_RIGHTBRACKET	= 93;
+//SDLK_CARET		= 94;
+//SDLK_UNDERSCORE		= 95;
+//SDLK_BACKQUOTE		= 96;
+
+// SDLK_NUMLOCK		= 300;
+// SDLK_CAPSLOCK		= 301;
+// SDLK_SCROLLOCK		= 302;
+// SDLK_RSHIFT		= 303;
+// SDLK_RCTRL		= 305;
+// SDLK_LCTRL		= 306;
+// SDLK_RALT		= 307;
+// SDLK_RMETA		= 309;
+// SDLK_LMETA		= 310;
+// SDLK_LSUPER		= 311;		/* Left "Windows" key */
+// SDLK_RSUPER		= 312;		/* Right "Windows" key */
+// SDLK_MODE		= 313;		/* "Alt Gr" key */
+// SDLK_COMPOSE		= 314;		/* Multi-key compose key */
+
+// SDLK_HELP		= 315;
+// SDLK_PRINT		= 316;
+// SDLK_SYSREQ		= 317;
+// SDLK_BREAK		= 318;
+// SDLK_MENU		= 319;
+// SDLK_POWER		= 320;		/* Power Macintosh power key */
+// SDLK_EURO		= 321;		/* Some european keyboards */
+// SDLK_UNDO		= 322;		/* Atari keyboard has Undo */
+// SDLK_DELETE		= 127;
+// /* End of ASCII mapped keysyms */
+// /* Numeric keypad */
+// SDLK_KP0		= 256;
+// SDLK_KP1		= 257;
+// SDLK_KP2		= 258;
+// SDLK_KP3		= 259;
+// SDLK_KP4		= 260;
+// SDLK_KP5		= 261;
+// SDLK_KP6		= 262;
+// SDLK_KP7		= 263;
+// SDLK_KP8		= 264;
+// SDLK_KP9		= 265;
+// SDLK_KP_PERIOD		= 266;
+// SDLK_KP_DIVIDE		= 267;
+// SDLK_KP_MULTIPLY	= 268;
+// SDLK_KP_MINUS		= 269;
+// SDLK_KP_PLUS		= 270;
+// SDLK_KP_ENTER		= 271;
+// SDLK_KP_EQUALS		= 272;
+
+// SDLK_UP			= 273;
+// SDLK_DOWN		= 274;
+// SDLK_RIGHT		= 275;
+// SDLK_LEFT		= 276;
+// SDLK_INSERT		= 277;
+// SDLK_HOME		= 278;
+// SDLK_END		= 279;
+// SDLK_PAGEUP		= 280;
+// SDLK_PAGEDOWN		= 281;
+   
+// SDLK_F1			= 282;
+// SDLK_F2			= 283;
+// SDLK_F3			= 284;
+// SDLK_F4			= 285;
+// SDLK_F5			= 286;
+// SDLK_F6			= 287;
+// SDLK_F7			= 288;
+// SDLK_F8			= 289;
+// SDLK_F9			= 290;
+// SDLK_F10		= 291;
+// SDLK_F11		= 292;
+// SDLK_F12		= 293;
+// SDLK_F13		= 294;
+// SDLK_F14		= 295;
+// SDLK_F15		= 296;
+
+default xkb_keycodes "palm-pre" {
+    minimum= 8;
+    maximum= 255;
+
+   <BKSP> = 8;
+   <RTRN> = 13;
+   <SPCE> = 32;
+   <AB08> = 44;
+   <AC01> = 97;
+   <AB05> = 98;
+   <AB03> = 99;
+   <AC03> = 100;
+   <AD03> = 101;
+   <AC04> = 102;
+   <AC05> = 103;
+   <AC06> = 104;
+   <AD08> = 105;
+   <AC07> = 106;
+   <AC08> = 107;
+   <AC09> = 108;
+   <AB07> = 109;
+   <AB06> = 110;
+   <AD09> = 111;
+   <AD10> = 112;
+   <AD01> = 113;
+   <AD04> = 114;
+   <AC02> = 115;
+   <AD05> = 116;
+   <AD07> = 117;
+   <AB04> = 118;
+   <AD02> = 119;
+   <AB02> = 120;
+   <AD06> = 121;
+   <AB01> = 122;
+   
+   <LALT> = 180;  // 307 SDLK_LALT   (-127)
+   <LFSH> = 177;  // 304 SDLK_LSHIFT (-127)
+   <RCTL> = 178; // 205 SDLK_RIGHT (-127)
+   <RALT> = 64;  // SDLK_AT
+   <RTSH> = 46;  // SDLK_PERIOD		
+};
+

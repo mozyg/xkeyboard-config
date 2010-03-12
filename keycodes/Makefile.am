@@ -11,6 +11,7 @@ fujitsu \
 hp \
 ibm \
 macintosh \
+palm-pre \
 sony \
 sun \
 xfree86 \

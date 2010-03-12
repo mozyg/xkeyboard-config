@@ -3,7 +3,7 @@ SUBDIRS = digital_vndr sgi_vndr sun_vndr
 keymapdir = $(xkb_base)/keymap
 
 dist_keymap_DATA = \
-amiga ataritt macintosh \
+amiga ataritt macintosh palm-pre\
 sony xfree86 xfree98 \
 README
 

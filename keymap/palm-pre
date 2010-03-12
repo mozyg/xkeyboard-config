@@ -1,0 +1,9 @@
+// $palm-pre experimental keymap.$
+
+default xkb_keymap "palm-pre" {
+    xkb_keycodes	{ include "palm-pre"				};
+    xkb_types		{ include "default"				};
+    xkb_compatibility	{ include "default"				};
+    xkb_symbols		{ include "palm-pre(us)"			};
+    xkb_geometry	{ include "pc"					};
+};
