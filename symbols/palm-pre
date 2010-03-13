@@ -15,7 +15,7 @@ xkb_symbols "us" {
     key <AD10> {	[	  p,	P,   equal, equal	]	};
 
     key <AC01> {	[	  a,	A,   ampersand, ampersand	]	};
-    key <AC02> {	[	  s,	S,   underscore, underscore	]	};
+    key <AC02> {	[	  s,	S,   minus, minus	]	};
     key <AC03> {	[	  d,	D,	4, 4	]	};
     key <AC04> {	[	  f,	F,	5, 5	]	};
     key <AC05> {	[	  g,	G,	6, 6	]	};
@@ -34,7 +34,7 @@ xkb_symbols "us" {
     key <AB05> {	[	  b,	B,   numbersign, numbersign	]	};
     key <AB06> {	[	  n,	N,   question, question	]	};
     key <AB07> {	[	  m,	M,   semicolon, semicolon	]	};
-    key <AB08> {	[     comma,	minus		]	};
+    key <AB08> {	[     comma,	comma, underscore, underscore	]	};
     key <RTRN> {	[ Return	]	};
 
 //    key <RALT> {	[  at, at, 0, 0		]	};
