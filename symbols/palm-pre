@@ -40,12 +40,13 @@ xkb_symbols "us" {
     // Alphanumeric section - bottom row
     key <LFSH> { [ Shift_L ] };
     key <AT> { [ at, U005C ] };
-    key <SPCE> { [ space, U001B ] };
+    key <SPCE> { [ space, Escape ] };
     key <PRD> { [ period, U007C, U003E, U003C ] };
     // End alphanumeric section
 
     modifier_map Shift  { Shift_L };
     modifier_map Control{ Control_R };
+    include "level3(ralt_switch)"
 
     //Orange bindings:
 
