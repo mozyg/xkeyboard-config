@@ -2,47 +2,56 @@ xkb_symbols "us" {
 
     name[Group1]= "USA";
 
-    // Alphanumeric section
-    key <AD01> {	[	  q,	Q,   slash, slash]	};
-    key <AD02> {	[	  w,	W,   plus, plus	]	};
-    key <AD03> {	[	  e,	E, 	1, 1	]	};
-    key <AD04> {	[	  r,	R,	2, 2	]	};
-    key <AD05> {	[	  t,	T,	3, 3	]	};
-    key <AD06> {	[	  y,	Y,   parenleft, parenleft	]	};
-    key <AD07> {	[	  u,	U,   parenright, parenright	]	};
-    key <AD08> {	[	  i,	I,   percent, percent	]	};
-    key <AD09> {	[	  o,	O,   quotedbl, quotedbl	]	};
-    key <AD10> {	[	  p,	P,   equal, equal	]	};
+    // Alphanumeric section - top row
+    key <AD01> { [   q, Q,   slash, slash] };
+    key <AD02> { [   w, W,   plus, plus ] };
+    key <AD03> { [   e, E,  1, 1 ] };
+    key <AD04> { [   r, R, 2, 2 ] };
+    key <AD05> { [   t, T, 3, 3 ] };
+    key <AD06> { [   y, Y,   parenleft, U007B ] };
+    key <AD07> { [   u, U,   parenright, U007D ] };
+    key <AD08> { [   i, I,   percent, percent ] };
+    key <AD09> { [   o, O,   quotedbl, quotedbl ] };
+    key <AD10> { [   p, P,   equal, equal ] };
 
-    key <AC01> {	[	  a,	A,   ampersand, ampersand	]	};
-    key <AC02> {	[	  s,	S,   minus, minus	]	};
-    key <AC03> {	[	  d,	D,	4, 4	]	};
-    key <AC04> {	[	  f,	F,	5, 5	]	};
-    key <AC05> {	[	  g,	G,	6, 6	]	};
-    key <AC06> {	[	  h,	H,   dollar, dollar	]	};
-    key <AC07> {	[	  j,	J,   exclam, exclam	]	};
-    key <AC08> {	[	  k,	K,   colon, colon	]	};
-    key <AC09> {	[	  l,	L,   quoteright, quoteright	]	};
-    key <BKSP> {	[ BackSpace			]	};
+    // Alphanumeric section - 2nd row
+    key <AC01> { [   a, A,   ampersand, ampersand ] };
+    key <AC02> { [   s, S,   minus, minus ] };
+    key <AC03> { [   d, D, 4, 4 ] };
+    key <AC04> { [   f, F, 5, 5 ] };
+    key <AC05> { [   g, G, 6, 6 ] };
+    key <AC06> { [   h, H,   dollar, dollar ] };
+    key <AC07> { [   j, J,   exclam, exclam ] };
+    key <AC08> { [   k, K,   colon, colon ] };
+    key <AC09> { [   l, L,   quoteright, quoteleft ] };
+    key <BKSP> { [ BackSpace   ] };
 
-    //key <LALT> {	[  Mode_switch	 		]	};
-    key <RCTL> {	[  Control_R			]	};
-    key <AB01> {	[	  z,	Z,   asterisk, asterisk 	]	};
-    key <AB02> {	[	  x,	X,      7, 7	]	};
-    key <AB03> {	[	  c,	C,	8, 8	]	};
-    key <AB04> {	[	  v,	V,	9, 9	]	};
-    key <AB05> {	[	  b,	B,   numbersign, numbersign	]	};
-    key <AB06> {	[	  n,	N,   question, question	]	};
-    key <AB07> {	[	  m,	M,   semicolon, semicolon	]	};
-    key <AB08> {	[     comma,	comma, underscore, underscore	]	};
-    key <RTRN> {	[ Return	]	};
+    // Alphanumeric section - 3rd row
+    // <LALT> = Orange key
+    //key <LALT> { [ Mode_switch ] };
+    //key <LALT> { [ Control_R ] };
+    key <LALT> { [  at, U005C, 0, 0  ] };
+    key <AB01> { [   z, Z,   asterisk, asterisk  ] };
+    key <AB02> { [   x, X,      7, 7 ] };
+    key <AB03> { [   c, C, 8, 8 ] };
+    key <AB04> { [   v, V, 9, 9 ] };
+    key <AB05> { [   b, B,   numbersign, numbersign ] };
+    key <AB06> { [   n, N,   question, question ] };
+    key <AB07> { [   m, M,   semicolon, semicolon ] };
+    key <AB08> { [ comma, comma, underscore, underscore ] };
+    key <RTRN> { [ Return ] };
 
-//    key <RALT> {	[  at, at, 0, 0		]	};
-    key <LALT> {	[  at, at, 0, 0		]	};
-    key <SPCE> {	[  space			]	};
-    key <LFSH> {	[ Shift_L	]	};
-    key <RTSH> {	[  period	]	};
+    // Alphanumeric section - bottom row
+    // <RCTL> is "@/0" key
+    // <RALT> is?? Sym key
+    key <LFSH> { [ Shift_L ] };
+    key <RCTL> { [ Control_R ] };
+    key <SPCE> { [ space, U001B ] };
+    key <RTSH> { [ period, U007C, U003E, U003C ] };
+//    key <RALT> { [  at, at, 0, 0  ] };
     // End alphanumeric section
+
+    // How is Sym mapped?  level3(ralt_switch)??
     modifier_map Shift  { Shift_L };
     modifier_map Control{ Control_R };
     include "level3(ralt_switch)"
