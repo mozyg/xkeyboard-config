@@ -168,11 +168,47 @@ default xkb_keycodes "palm-pre" {
    <AB02> = 120;
    <AD06> = 121;
    <AB01> = 122;
+
+   //Orange keys, row 1
+   <OA01> = 47;
+   <OA02> = 43;
+   <OA03> = 49;
+   <OA04> = 50;
+   <OA05> = 51;
+   <OA06> = 40;
+   <OA07> = 41;
+   <OA08> = 37;
+   <OA09> = 34;
+   <OA10> = 61;
+
+   //Orange keys, row 2
+   <OB01> = 38;
+   <OB02> = 45;
+   <OB03> = 52;
+   <OB04> = 53;
+   <OB05> = 54;
+   <OB06> = 36;
+   <OB07> = 33;
+   <OB08> = 58;
+   <OB09> = 39;
+
+   //Orange keys, row 3
+   <OC01> = 42;
+   <OC02> = 55;
+   <OC03> = 56;
+   <OC04> = 57;
+   <OC05> = 35;
+   <OC06> = 63;
+   <OC07> = 59;
+   <OC08> = 95;
+
+    //Orange, row 4
+   <OD01> = 48;
    
-   <LALT> = 180;  // 307 SDLK_LALT   (-127)
+   <ORNG> = 180;  // 307 SDLK_LALT   (-127)
    <LFSH> = 177;  // 304 SDLK_LSHIFT (-127)
-   <RCTL> = 178; // 205 SDLK_RIGHT (-127)
-   <RALT> = 64;  // SDLK_AT
-   <RTSH> = 46;  // SDLK_PERIOD		
+   <RALT> = 178; // 205 SDLK_RIGHT (-127) (sym)
+   <AT> = 64;  // SDLK_AT
+   <PRD> = 46;  // SDLK_PERIOD		
 };
 
