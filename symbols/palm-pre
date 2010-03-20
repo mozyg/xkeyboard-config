@@ -3,13 +3,13 @@ xkb_symbols "us" {
     name[Group1]= "USA";
 
     // Alphanumeric section - top row
-    key <AD01> { [   q, Q ] };
+    key <AD01> { [   q, Q, U005C ] };
     key <AD02> { [   w, W ] };
     key <AD03> { [   e, E ] };
     key <AD04> { [   r, R ] };
     key <AD05> { [   t, T ] };
-    key <AD06> { [   y, Y ] };
-    key <AD07> { [   u, U ] };
+    key <AD06> { [   y, Y, U007B ] };
+    key <AD07> { [   u, U, U007D ] };
     key <AD08> { [   i, I ] };
     key <AD09> { [   o, O ] };
     key <AD10> { [   p, P ] };
@@ -23,7 +23,7 @@ xkb_symbols "us" {
     key <AC06> { [   h, H ] };
     key <AC07> { [   j, J ] };
     key <AC08> { [   k, K ] };
-    key <AC09> { [   l, L ] };
+    key <AC09> { [   l, L, quoteleft ] };
     key <BKSP> { [ BackSpace   ] };
 
     // Alphanumeric section - 3rd row
@@ -39,7 +39,7 @@ xkb_symbols "us" {
 
     // Alphanumeric section - bottom row
     key <LFSH> { [ Shift_L ] };
-    key <AT> { [ at, U005C ] };
+    key <AT> { [ at, at ] };
     key <SPCE> { [ space, Escape ] };
     key <PRD> { [ period, U007C, U003E, U003C ] };
     // End alphanumeric section
@@ -51,38 +51,38 @@ xkb_symbols "us" {
     //Orange bindings:
 
     //Orange keys, row 1
-    key <OA01> { [ slash,       slash ] };
-    key <OA02> { [ plus,        plus ] };
-    key <OA03> { [ 1,           1 ] };
-    key <OA04> { [ 2,           2 ] };
-    key <OA05> { [ 3,           3 ] };
-    key <OA06> { [ parenleft,   U007B  ] };
-    key <OA07> { [ parenright, U007D ] };
-    key <OA08> { [ percent,     percent ] };
-    key <OA09> { [ quotedbl,    quotedbl ] };
-    key <OA10> { [ equal,       equal ] };
+    key <OA01> { [ slash ] };
+    key <OA02> { [ plus ] };
+    key <OA03> { [ 1 ] };
+    key <OA04> { [ 2 ] };
+    key <OA05> { [ 3 ] };
+    key <OA06> { [ parenleft ] };
+    key <OA07> { [ parenright ] };
+    key <OA08> { [ percent ] };
+    key <OA09> { [ quotedbl ] };
+    key <OA10> { [ equal ] };
 
     //Orange keys, row 2
-    key <OB01> { [ ampersand,   ampersand ] };
-    key <OB02> { [ minus,       minus ] };
-    key <OB03> { [ 4,           4 ] };
-    key <OB04> { [ 5,           5 ] };
-    key <OB05> { [ 6,           6 ] };
-    key <OB06> { [ dollar,      dollar ] };
-    key <OB07> { [ exclam,      exclam ] };
-    key <OB08> { [ colon,       colon ] };
-    key <OB09> { [ quoteright,  quoteleft ] };
+    key <OB01> { [ ampersand ] };
+    key <OB02> { [ minus ] };
+    key <OB03> { [ 4 ] };
+    key <OB04> { [ 5 ] };
+    key <OB05> { [ 6 ] };
+    key <OB06> { [ dollar ] };
+    key <OB07> { [ exclam ] };
+    key <OB08> { [ colon ] };
+    key <OB09> { [ quoteright ] };
 
     //Orange keys, row 3
-    key <OC01> { [ asterisk,    asterisk ] };
-    key <OC02> { [ 7,           7 ] };
-    key <OC03> { [ 8,           8 ] };
-    key <OC04> { [ 9,           9 ] };
-    key <OC05> { [ numbersign,  numbersign ] };
-    key <OC06> { [ question,    question ] };
-    key <OC07> { [ semicolon,   semicolon ] };
-    key <OC08> { [ underscore,  underscore ] };
+    key <OC01> { [ asterisk ] };
+    key <OC02> { [ 7 ] };
+    key <OC03> { [ 8 ] };
+    key <OC04> { [ 9 ] };
+    key <OC05> { [ numbersign ] };
+    key <OC06> { [ question ] };
+    key <OC07> { [ semicolon ] };
+    key <OC08> { [ underscore ] };
 
     //Orange, row 4 (@)
-    key <OD01> { [ 0,           0 ] };
+    key <OD01> { [ 0 ] };
 };
