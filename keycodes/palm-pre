@@ -210,5 +210,6 @@ default xkb_keycodes "palm-pre" {
    <RALT> = 178; // 205 SDLK_RIGHT (-127) (sym)
    <AT> = 64;  // SDLK_AT
    <PRD> = 46;  // SDLK_PERIOD		
+   <RCTL> = 231; //Gesture is control
 };
 

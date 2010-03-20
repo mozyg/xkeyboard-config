@@ -41,6 +41,7 @@ xkb_symbols "us" {
     key <LFSH> { [ Shift_L ] };
     key <AT> { [ at, at ] };
     key <SPCE> { [ space, Escape ] };
+    key <RCTL> { [ Control_R ] };
     key <PRD> { [ period, U007C, U003E, U003C ] };
     // End alphanumeric section
 
